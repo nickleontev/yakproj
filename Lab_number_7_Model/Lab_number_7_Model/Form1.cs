@@ -33,7 +33,7 @@ namespace Lab_number_7_Model
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DialogResult result = MessageBox.Show(@"       Вы уверенны, что хотите выйти?",
-      "Lab #7 - Greffort", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Exclamation,
+      "Lab #7", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Exclamation,
         MessageBoxDefaultButton.Button2);
             switch (result)
             {
@@ -90,9 +90,12 @@ RANDINT - Целое случайное число
 
         private void start_btn_Click(object sender, EventArgs e)
         {
+            //запаганил метод ниже, пусть будет, удалю
             if (N_tb.Text.Equals (""))
             {
                 MessageBox.Show("Заполните все поля.", "Ошибка заполнения полей ввода", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //TESTMDIParent1 s = new TESTMDIParent1();
+                //s.Show();
             }
 
             else
@@ -102,6 +105,10 @@ RANDINT - Целое случайное число
                 f2.Show();
             }
         }
-        
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

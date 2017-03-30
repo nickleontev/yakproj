@@ -48,7 +48,7 @@
             // 
             // deltat_tb
             // 
-            this.deltat_tb.Location = new System.Drawing.Point(23, 193);
+            this.deltat_tb.Location = new System.Drawing.Point(12, 205);
             this.deltat_tb.Name = "deltat_tb";
             this.deltat_tb.Size = new System.Drawing.Size(100, 20);
             this.deltat_tb.TabIndex = 1;
@@ -56,7 +56,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(129, 196);
+            this.label2.Location = new System.Drawing.Point(118, 208);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(205, 13);
             this.label2.TabIndex = 2;
@@ -65,9 +65,9 @@
             // late_btn
             // 
             this.late_btn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.late_btn.Location = new System.Drawing.Point(23, 233);
+            this.late_btn.Location = new System.Drawing.Point(12, 250);
             this.late_btn.Name = "late_btn";
-            this.late_btn.Size = new System.Drawing.Size(140, 20);
+            this.late_btn.Size = new System.Drawing.Size(216, 37);
             this.late_btn.TabIndex = 3;
             this.late_btn.Text = "Назад";
             this.late_btn.UseVisualStyleBackColor = true;
@@ -76,9 +76,9 @@
             // next_btn
             // 
             this.next_btn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.next_btn.Location = new System.Drawing.Point(184, 233);
+            this.next_btn.Location = new System.Drawing.Point(245, 250);
             this.next_btn.Name = "next_btn";
-            this.next_btn.Size = new System.Drawing.Size(140, 20);
+            this.next_btn.Size = new System.Drawing.Size(216, 37);
             this.next_btn.TabIndex = 4;
             this.next_btn.Text = "Далее";
             this.next_btn.UseVisualStyleBackColor = true;
@@ -182,7 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(473, 265);
+            this.ClientSize = new System.Drawing.Size(473, 299);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.next_btn);
