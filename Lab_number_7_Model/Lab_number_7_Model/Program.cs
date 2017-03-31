@@ -38,7 +38,7 @@ namespace Lab_number_7_Model
 
 
             //Application.Run(new Form1());
-            Application.Run(new HelloMenuForm());
+            Application.Run(new TESTHelloMenuForm());
         }
     }
 }
