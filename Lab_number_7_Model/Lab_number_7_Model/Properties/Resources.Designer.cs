@@ -73,9 +73,9 @@ namespace Lab_number_7_Model.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _11 {
+        internal static System.Drawing.Bitmap Заголовок {
             get {
-                object obj = ResourceManager.GetObject("11", resourceCulture);
+                object obj = ResourceManager.GetObject("Заголовок", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace Lab_number_7_Model.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap kFVkZg_RQDc {
+        internal static System.Drawing.Bitmap Заголовок1 {
             get {
-                object obj = ResourceManager.GetObject("kFVkZg_RQDc", resourceCulture);
+                object obj = ResourceManager.GetObject("Заголовок1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Lab_number_7_Model.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap kFVkZg_RQDc1 {
+        internal static System.Drawing.Bitmap Заголовок2 {
             get {
-                object obj = ResourceManager.GetObject("kFVkZg_RQDc1", resourceCulture);
+                object obj = ResourceManager.GetObject("Заголовок2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
