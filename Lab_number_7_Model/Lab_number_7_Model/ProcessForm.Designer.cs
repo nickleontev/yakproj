@@ -53,7 +53,7 @@
             this.Column5});
             this.dataGridView1.Location = new System.Drawing.Point(12, 29);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(566, 234);
+            this.dataGridView1.Size = new System.Drawing.Size(494, 305);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -91,16 +91,16 @@
             // 
             this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.progressBar1.Location = new System.Drawing.Point(12, 281);
+            this.progressBar1.Location = new System.Drawing.Point(12, 352);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(566, 23);
+            this.progressBar1.Size = new System.Drawing.Size(494, 23);
             this.progressBar1.TabIndex = 1;
             // 
             // ProcessForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(599, 330);
+            this.ClientSize = new System.Drawing.Size(527, 401);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "ProcessForm";
