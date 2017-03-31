@@ -108,5 +108,10 @@ namespace Lab_number_7_Model
         {
 
         }
+
+        private void toolStripProgressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
