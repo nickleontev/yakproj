@@ -79,7 +79,7 @@ massindex[N] - Массив индексов терминалов, попавш�
 RAND - Случайное число с плавающей точкой
 RANDINT - Целое случайное число
 ",
-      "Information Lab #7 - Greffort", MessageBoxButtons.OK, MessageBoxIcon.Information,
+      "Information Lab #7", MessageBoxButtons.OK, MessageBoxIcon.Information,
         MessageBoxDefaultButton.Button1);
         }
 

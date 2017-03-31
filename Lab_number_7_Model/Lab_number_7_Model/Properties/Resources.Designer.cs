@@ -73,9 +73,29 @@ namespace Lab_number_7_Model.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _11 {
+            get {
+                object obj = ResourceManager.GetObject("11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap kFVkZg_RQDc {
             get {
                 object obj = ResourceManager.GetObject("kFVkZg_RQDc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kFVkZg_RQDc1 {
+            get {
+                object obj = ResourceManager.GetObject("kFVkZg_RQDc1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
