@@ -48,6 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HelloMenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelloMenuForm.Designer.cs">
+      <DependentUpon>HelloMenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="TESTAboutBox1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +117,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Terminal.cs" />
+    <EmbeddedResource Include="HelloMenuForm.resx">
+      <DependentUpon>HelloMenuForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TESTAboutBox1.resx">
       <DependentUpon>TESTAboutBox1.cs</DependentUpon>
     </EmbeddedResource>
@@ -135,14 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -157,16 +166,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\kFVkZg_RQDc.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Структурная схема.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Структурная схема1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1.0-Logotip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Заголовок2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Заголовок.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Заголовок1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Структурная схема.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

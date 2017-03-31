@@ -31,3 +31,4 @@ D:\yakproj\Lab_number_7_Model\Lab_number_7_Model\bin\Debug\ru\Microsoft.VisualSt
 D:\yakproj\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.TESTAboutBox1.resources
 D:\yakproj\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.TESTMDIParent1.resources
 D:\yakproj\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.TESTPicture.resources
+D:\yakproj\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.HelloMenuForm.resources
