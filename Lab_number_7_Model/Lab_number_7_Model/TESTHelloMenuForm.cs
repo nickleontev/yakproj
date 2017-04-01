@@ -26,8 +26,8 @@ namespace Lab_number_7_Model
 
         private void HelloMenuForm_Load(object sender, EventArgs e)
         {
-            this.label1.Text = DateTime.Now.ToShortTimeString();
-            this.label2.Text = DateTime.Now.ToShortDateString();
+            this.linkLabel1.Text = DateTime.Now.ToShortTimeString();
+            this.linkLabel2.Text = DateTime.Now.ToShortDateString();
         }
     }
 }

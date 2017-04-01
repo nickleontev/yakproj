@@ -25,7 +25,7 @@ namespace Lab_number_7_Model
 
 
             TESTPicture first = new TESTPicture();
-            DateTime end = DateTime.Now + TimeSpan.FromSeconds(2);
+            DateTime end = DateTime.Now + TimeSpan.FromSeconds(3);
             first.Show();
             
             while (end > DateTime.Now)

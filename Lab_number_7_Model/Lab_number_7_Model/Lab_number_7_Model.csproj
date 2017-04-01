@@ -183,6 +183,24 @@
   <ItemGroup>
     <None Include="Resources\Структурная схема.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\2.0 - Logotip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Для логотипа 1.0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Для логотипа 2.0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\2.1 - Logotop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Заголовок.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\Подпись 0.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

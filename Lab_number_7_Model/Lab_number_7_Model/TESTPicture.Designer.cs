@@ -40,22 +40,23 @@
             // 
             // pictureBox1
             // 
-            //this.pictureBox1.Image = global::Lab_number_7_Model.Properties.Resources._11;
-            //this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            //this.pictureBox1.Name = "pictureBox1";
-            //this.pictureBox1.Size = new System.Drawing.Size(324, 300);
-            //this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            //this.pictureBox1.TabIndex = 0;
-            //this.pictureBox1.TabStop = false;
+            this.pictureBox1.Enabled = false;
+            this.pictureBox1.Image = global::Lab_number_7_Model.Properties.Resources.Для_логотипа_21;
+            this.pictureBox1.Location = new System.Drawing.Point(19, 330);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(285, 190);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // TESTPicture
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::Lab_number_7_Model.Properties.Resources._1_0_Logotip;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(324, 300);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(0)))), ((int)(((byte)(9)))));
+            this.BackgroundImage = global::Lab_number_7_Model.Properties.Resources._2_1___Logotop;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ClientSize = new System.Drawing.Size(324, 532);
             this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.DoubleBuffered = true;
@@ -74,6 +75,6 @@
         #endregion
 
         private System.Windows.Forms.Timer timer1;
-        public System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

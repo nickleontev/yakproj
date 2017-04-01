@@ -73,6 +73,56 @@ namespace Lab_number_7_Model.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2_0___Logotip {
+            get {
+                object obj = ResourceManager.GetObject("2.0 - Logotip", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2_1___Logotop {
+            get {
+                object obj = ResourceManager.GetObject("2.1 - Logotop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Для_логотипа_1_0 {
+            get {
+                object obj = ResourceManager.GetObject("Для логотипа 1.0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Для_логотипа_2_0 {
+            get {
+                object obj = ResourceManager.GetObject("Для логотипа 2.0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Для_логотипа_21 {
+            get {
+                object obj = ResourceManager.GetObject("Для логотипа 21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Заголовок {
             get {
                 object obj = ResourceManager.GetObject("Заголовок", resourceCulture);
@@ -96,6 +146,26 @@ namespace Lab_number_7_Model.Properties {
         internal static System.Drawing.Bitmap Заголовок2 {
             get {
                 object obj = ResourceManager.GetObject("Заголовок2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Заголовок3 {
+            get {
+                object obj = ResourceManager.GetObject("Заголовок3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Подпись_0 {
+            get {
+                object obj = ResourceManager.GetObject("Подпись 0", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

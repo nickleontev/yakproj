@@ -17,10 +17,10 @@ namespace Lab_number_7_Model
         {
             InitializeComponent();
             timer1.Start();
-            this.FormBorderStyle = FormBorderStyle.None;
-            this.AllowTransparency = true;
-            this.BackColor = Color.AliceBlue;//цвет фона  
-            this.TransparencyKey = this.BackColor;//он же будет заменен на прозрачный цвет
+            //this.FormBorderStyle = FormBorderStyle.None;
+            //this.AllowTransparency = true;
+            //this.BackColor = Color.AliceBlue;//цвет фона  
+            //this.TransparencyKey = this.BackColor;//он же будет заменен на прозрачный цвет
         }
 
 
