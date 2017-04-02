@@ -24,8 +24,8 @@ namespace Lab_number_7_Model
 
 
 
-            TESTPicture first = new TESTPicture();
-            DateTime end = DateTime.Now + TimeSpan.FromSeconds(3);
+            Picture first = new Picture();
+            DateTime end = DateTime.Now + TimeSpan.FromSeconds(1.4);
             first.Show();
             
             while (end > DateTime.Now)
@@ -38,7 +38,7 @@ namespace Lab_number_7_Model
 
 
             //Application.Run(new Form1());
-            Application.Run(new TESTHelloMenuForm());
+            Application.Run(new HelloMenuForm());
         }
     }
 }

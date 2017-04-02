@@ -96,7 +96,7 @@ RANDINT - Целое случайное число
                 MessageBox.Show("Заполните все поля.", "Ошибка заполнения полей ввода", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 //TESTMDIParent1 s = new TESTMDIParent1();
                 //s.Show();
-                TESTHelloMenuForm H = new TESTHelloMenuForm();
+                HelloMenuForm H = new HelloMenuForm();
                 H.Show();
             }
 

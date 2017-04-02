@@ -93,6 +93,16 @@ namespace Lab_number_7_Model.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AboutBox1 {
+            get {
+                object obj = ResourceManager.GetObject("AboutBox1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Для_логотипа_1_0 {
             get {
                 object obj = ResourceManager.GetObject("Для логотипа 1.0", resourceCulture);
