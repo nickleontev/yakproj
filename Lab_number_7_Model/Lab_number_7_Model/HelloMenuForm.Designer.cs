@@ -115,7 +115,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(167, 71);
             this.button2.TabIndex = 4;
-            this.button2.Text = "О выполненной работе";
+            this.button2.Text = "Отчет\r\nо выполненной работе";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -157,7 +157,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(167, 71);
             this.button5.TabIndex = 7;
-            this.button5.Text = "О выполненной работе";
+            this.button5.Text = "Отчет\r\nо выполненной работе";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
@@ -197,7 +197,7 @@
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // TESTHelloMenuForm
+            // HelloMenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -212,8 +212,8 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "TESTHelloMenuForm";
-            this.Text = "HelloMenuForm";
+            this.Name = "HelloMenuForm";
+            this.Text = "Лабораторная работа №7";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.HelloMenuForm_Load);
             this.panel1.ResumeLayout(false);

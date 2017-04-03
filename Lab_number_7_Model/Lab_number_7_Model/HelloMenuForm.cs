@@ -44,7 +44,18 @@ namespace Lab_number_7_Model
         }
             catch(System.IO.FileNotFoundException)
             {
-                richTextBox1.Text = "Неправильно указан путь к файлу(Исправить в коде, пока только так)";
+                richTextBox1.Text = "Неправильно указан путь к файлу";
+
+                OpenFileDialog openFile1 = new OpenFileDialog();
+
+                openFile1.DefaultExt = "*.rtf";
+                openFile1.Filter = "RTF Files|*.rtf";
+                
+                if (openFile1.ShowDialog() == System.Windows.Forms.DialogResult.OK &&
+                   openFile1.FileName.Length > 0)
+                {
+                    richTextBox1.LoadFile(openFile1.FileName);
+                }
             }
 
         }
@@ -76,7 +87,18 @@ namespace Lab_number_7_Model
             }
             catch (System.IO.FileNotFoundException)
             {
-                richTextBox1.Text = "Неправильно указан путь к файлу(Исправить в коде, пока только так)";
+                richTextBox1.Text = "Неправильно указан путь к файлу";
+
+                OpenFileDialog openFile1 = new OpenFileDialog();
+
+                openFile1.DefaultExt = "*.rtf";
+                openFile1.Filter = "RTF Files|*.rtf";
+
+                if (openFile1.ShowDialog() == System.Windows.Forms.DialogResult.OK &&
+                   openFile1.FileName.Length > 0)
+                {
+                    richTextBox1.LoadFile(openFile1.FileName);
+                }
             }
         }
 
