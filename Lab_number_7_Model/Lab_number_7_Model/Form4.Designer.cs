@@ -42,6 +42,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -65,7 +66,7 @@
             // late_btn
             // 
             this.late_btn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.late_btn.Location = new System.Drawing.Point(12, 250);
+            this.late_btn.Location = new System.Drawing.Point(161, 333);
             this.late_btn.Name = "late_btn";
             this.late_btn.Size = new System.Drawing.Size(216, 37);
             this.late_btn.TabIndex = 3;
@@ -76,7 +77,7 @@
             // next_btn
             // 
             this.next_btn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.next_btn.Location = new System.Drawing.Point(245, 250);
+            this.next_btn.Location = new System.Drawing.Point(394, 333);
             this.next_btn.Name = "next_btn";
             this.next_btn.Size = new System.Drawing.Size(216, 37);
             this.next_btn.TabIndex = 4;
@@ -178,11 +179,21 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Крайняя граница для выбора количесва окон задержки";
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(542, 29);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 257);
+            this.groupBox1.TabIndex = 20;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(473, 299);
+            this.ClientSize = new System.Drawing.Size(770, 464);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.next_btn);
@@ -217,5 +228,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

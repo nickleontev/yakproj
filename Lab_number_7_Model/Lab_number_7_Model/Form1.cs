@@ -117,5 +117,10 @@ RANDINT - Целое случайное число
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            tabControl1.SelectedTab = tabControl1.TabPages[1];
+        }
     }
 }
