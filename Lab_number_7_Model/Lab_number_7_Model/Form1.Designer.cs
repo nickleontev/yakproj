@@ -120,7 +120,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(6, 6);
+            this.button1.Location = new System.Drawing.Point(6, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 0;
@@ -134,7 +134,7 @@
             this.number2.Location = new System.Drawing.Point(4, 22);
             this.number2.Name = "number2";
             this.number2.Padding = new System.Windows.Forms.Padding(3);
-            this.number2.Size = new System.Drawing.Size(257, 240);
+            this.number2.Size = new System.Drawing.Size(811, 539);
             this.number2.TabIndex = 1;
             this.number2.Text = "tabPage2";
             this.number2.UseVisualStyleBackColor = true;

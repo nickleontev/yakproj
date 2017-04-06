@@ -90,6 +90,12 @@ RANDINT - Целое случайное число
 
         private void start_btn_Click(object sender, EventArgs e)
         {
+
+
+            //переход к другой вкладке
+            tabControl1.SelectedTab = tabControl1.TabPages[1];
+
+
             //запаганил метод ниже, пусть будет, удалю
             if (N_tb.Text.Equals (""))
             {
@@ -120,7 +126,7 @@ RANDINT - Целое случайное число
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            tabControl1.SelectedTab = tabControl1.TabPages[1];
+           
         }
     }
 }
