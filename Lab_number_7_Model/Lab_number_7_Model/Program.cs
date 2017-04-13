@@ -24,22 +24,22 @@ namespace Lab_number_7_Model
 
 
 
-            Picture first = new Picture();
-            DateTime end = DateTime.Now + TimeSpan.FromSeconds(1);
-            first.Show();
-            
-            while (end > DateTime.Now)
-            {
-                Application.DoEvents();
-            }
-            first.Close();
-            first.Dispose();
+            //Picture first = new Picture();
+            //DateTime end = DateTime.Now + TimeSpan.FromSeconds(1.4);
+            //first.Show();
+
+            //while (end > DateTime.Now)
+            //{
+            //    Application.DoEvents();
+            //}
+            //first.Close();
+            //first.Dispose();
 
 
 
             //Application.Run(new Form1());
-            Application.Run(new HelloMenuForm());
-            //Application.Run(new TESTMDIParent1());
+           Application.Run(new HelloMenuForm());
+           // Application.Run(new ProcessForm());
         }
     }
 }

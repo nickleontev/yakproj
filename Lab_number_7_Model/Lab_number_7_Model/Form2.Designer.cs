@@ -107,6 +107,7 @@
             this.late_btn.TabIndex = 4;
             this.late_btn.Text = "Назад";
             this.late_btn.UseVisualStyleBackColor = true;
+            this.late_btn.Click += new System.EventHandler(this.late_btn_Click);
             // 
             // Form2
             // 

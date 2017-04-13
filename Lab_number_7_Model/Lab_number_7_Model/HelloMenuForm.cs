@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Lab_number_7_Model
 {
@@ -38,24 +39,13 @@ namespace Lab_number_7_Model
         {
             try
             {
-                richTextBox1.LoadFile(@"D:\yakproj\Lab_number_7_Model\Lab_number_7_Model\Document\HelloMenuFormButton2.rtf"/*, RichTextBoxStreamType.PlainText*/);
+                richTextBox1.LoadFile(@"C:\Users\sv\Desktop\yakproj-master\yakproj-master\Lab_number_7_Model\Lab_number_7_Model\HelloMenuFormButton2.rtf"/*, RichTextBoxStreamType.PlainText*/);
                 button2.Visible = false;
                 button5.Visible = true;
         }
             catch(System.IO.FileNotFoundException)
             {
-                richTextBox1.Text = "Неправильно указан путь к файлу";
-
-                OpenFileDialog openFile1 = new OpenFileDialog();
-
-                openFile1.DefaultExt = "*.rtf";
-                openFile1.Filter = "RTF Files|*.rtf";
-                
-                if (openFile1.ShowDialog() == System.Windows.Forms.DialogResult.OK &&
-                   openFile1.FileName.Length > 0)
-                {
-                    richTextBox1.LoadFile(openFile1.FileName);
-                }
+                richTextBox1.Text = "Неправильно указан путь к файлу(Исправить в коде, пока только так)";
             }
 
         }
@@ -81,24 +71,13 @@ namespace Lab_number_7_Model
         {
             try
             {
-                richTextBox1.LoadFile(@"D:\yakproj\Lab_number_7_Model\Lab_number_7_Model\Document\HelloMenuFormButtonСхемыИАлгоритм.rtf"/*, RichTextBoxStreamType.PlainText*/);
+                richTextBox1.LoadFile(@"C:\Users\sv\Desktop\yakproj-master\yakproj-master\Lab_number_7_Model\Lab_number_7_Model\HelloMenuFormButtonСхемыИАлгоритм.rtf"/*, RichTextBoxStreamType.PlainText*/);
                 button4.Visible = false;
                 button6.Visible = true;
             }
             catch (System.IO.FileNotFoundException)
             {
-                richTextBox1.Text = "Неправильно указан путь к файлу";
-
-                OpenFileDialog openFile1 = new OpenFileDialog();
-
-                openFile1.DefaultExt = "*.rtf";
-                openFile1.Filter = "RTF Files|*.rtf";
-
-                if (openFile1.ShowDialog() == System.Windows.Forms.DialogResult.OK &&
-                   openFile1.FileName.Length > 0)
-                {
-                    richTextBox1.LoadFile(openFile1.FileName);
-                }
+                richTextBox1.Text = "Неправильно указан путь к файлу(Исправить в коде, пока только так)";
             }
         }
 

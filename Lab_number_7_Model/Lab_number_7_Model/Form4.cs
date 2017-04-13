@@ -23,10 +23,26 @@ namespace Lab_number_7_Model
             if (input_rb.Checked)
             {
                 deltat_tb.Enabled = true;
+                sigma_tb.Enabled = false;
+                label2.Enabled = false;
             }
             else
             {
                 deltat_tb.Enabled = false;
+                sigma_tb.Enabled = true;
+                label2.Enabled = true;
+            }
+        }
+
+        private void IsVisible2()
+        {
+            if (input_dT_rb.Checked)
+            {
+                dT_tb.Enabled = true;
+            }
+            else
+            {
+                dT_tb.Enabled = false;
             }
         }
 
@@ -36,15 +52,8 @@ namespace Lab_number_7_Model
             InitializeComponent();
         }
 
-        private void calculate_rb_CheckedChanged(object sender, EventArgs e)
-        {
-            IsVisible();
-        }
 
-        private void input_rb_CheckedChanged(object sender, EventArgs e)
-        {
-            IsVisible();
-        }
+    
 
         private void late_btn_Click(object sender, EventArgs e)
         {
@@ -55,6 +64,11 @@ namespace Lab_number_7_Model
         private void Form4_Load(object sender, EventArgs e)
         {
             IsVisible();
+            IsVisible2();
+            sigma_tb.Enabled = false;
+            label2.Enabled = false;
+            input_rb.Checked = true;
+            input_dT_rb.Checked = true;
         }
 
         private void next_btn_Click(object sender, EventArgs e)
@@ -81,6 +95,7 @@ namespace Lab_number_7_Model
                                 Program.modeling.ToEnizializedModeling(Convert.ToDouble(T_tb.Text), Convert.ToDouble(dT_tb.Text), Convert.ToInt32(K_tb.Text));
                                 Program.modeling.control();
 
+                                this.Visible = false;
                                 ProcessForm pf = new ProcessForm();
                                 pf.Show();
                             }
@@ -127,9 +142,33 @@ namespace Lab_number_7_Model
 
                 }
 
+                if (calc_dT_rb.Checked == true)
+                {
+                    Program.modeling.CalculationOfIncrementdT();
+                }
                 //Program.modeling.deltat = Program.modeling.CalculationOfIncrementModelTime
             }
         }
 
+        private void input_dT_rb_CheckedChanged(object sender, EventArgs e)
+        {
+            IsVisible2();
+        }
+
+        private void calc_dT_rb_CheckedChanged(object sender, EventArgs e)
+        {
+            IsVisible2();
+        }
+
+
+        private void calculate_rb_CheckedChanged_1(object sender, EventArgs e)
+        {
+            IsVisible();
+        }
+
+        private void input_rb_CheckedChanged_1(object sender, EventArgs e)
+        {
+            IsVisible();
+        }
     }
 }
