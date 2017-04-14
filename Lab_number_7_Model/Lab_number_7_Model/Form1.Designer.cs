@@ -37,10 +37,8 @@ namespace Lab_number_7_Model
             this.panel1 = new System.Windows.Forms.Panel();
             this.N_tb = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.restart_btn = new System.Windows.Forms.Button();
             this.leave_btn = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.StructuralScheme = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.late_btn_1 = new System.Windows.Forms.Button();
             this.next_btn_1 = new System.Windows.Forms.Button();
@@ -78,29 +76,32 @@ namespace Lab_number_7_Model
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.dataGridView4 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label7 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dataGridView4 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn11 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.restart_btn = new System.Windows.Forms.Button();
+            this.StructuralScheme = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.ReturnPageTerminals = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.StructuralScheme)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabPage3.SuspendLayout();
@@ -112,9 +113,10 @@ namespace Lab_number_7_Model
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabPage5.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
-            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.StructuralScheme)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -198,17 +200,6 @@ namespace Lab_number_7_Model
             this.label3.TabIndex = 8;
             this.label3.Text = "Количество терминалов (N)";
             // 
-            // restart_btn
-            // 
-            this.restart_btn.BackColor = System.Drawing.Color.LightGreen;
-            this.restart_btn.Image = ((System.Drawing.Image)(resources.GetObject("restart_btn.Image")));
-            this.restart_btn.Location = new System.Drawing.Point(432, 3);
-            this.restart_btn.Name = "restart_btn";
-            this.restart_btn.Size = new System.Drawing.Size(80, 65);
-            this.restart_btn.TabIndex = 20;
-            this.restart_btn.UseVisualStyleBackColor = false;
-            this.restart_btn.Click += new System.EventHandler(this.restart_btn_Click);
-            // 
             // leave_btn
             // 
             this.leave_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
@@ -228,17 +219,6 @@ namespace Lab_number_7_Model
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1019, 362);
             this.panel5.TabIndex = 21;
-            // 
-            // StructuralScheme
-            // 
-            this.StructuralScheme.BackColor = System.Drawing.Color.White;
-            this.StructuralScheme.Image = ((System.Drawing.Image)(resources.GetObject("StructuralScheme.Image")));
-            this.StructuralScheme.Location = new System.Drawing.Point(0, 0);
-            this.StructuralScheme.Name = "StructuralScheme";
-            this.StructuralScheme.Size = new System.Drawing.Size(895, 354);
-            this.StructuralScheme.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.StructuralScheme.TabIndex = 19;
-            this.StructuralScheme.TabStop = false;
             // 
             // tabPage2
             // 
@@ -622,6 +602,8 @@ namespace Lab_number_7_Model
             // 
             // tabPage5
             // 
+            this.tabPage5.Controls.Add(this.button2);
+            this.tabPage5.Controls.Add(this.ReturnPageTerminals);
             this.tabPage5.Controls.Add(this.groupBox3);
             this.tabPage5.Controls.Add(this.label7);
             this.tabPage5.Controls.Add(this.dataGridView4);
@@ -633,6 +615,36 @@ namespace Lab_number_7_Model
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Процесс";
             this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.BackColor = System.Drawing.Color.Cornsilk;
+            this.groupBox3.Controls.Add(this.comboBox1);
+            this.groupBox3.Location = new System.Drawing.Point(617, 6);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(164, 59);
+            this.groupBox3.TabIndex = 5;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Отчет";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(6, 19);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 2;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(618, 6);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(10, 13);
+            this.label7.TabIndex = 4;
+            this.label7.Text = ".";
             // 
             // dataGridView4
             // 
@@ -652,15 +664,40 @@ namespace Lab_number_7_Model
             this.dataGridView4.Size = new System.Drawing.Size(605, 500);
             this.dataGridView4.TabIndex = 3;
             // 
-            // comboBox1
+            // dataGridViewTextBoxColumn8
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(6, 19);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 2;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.dataGridViewTextBoxColumn8.HeaderText = "№ терминала";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.HeaderText = "Момент времени t";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.HeaderText = "S";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.HeaderText = "Q";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn11
+            // 
+            this.dataGridViewTextBoxColumn11.HeaderText = "R";
+            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
+            this.dataGridViewTextBoxColumn11.ReadOnly = true;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Баланс";
+            this.Column6.Name = "Column6";
             // 
             // dataGridView3
             // 
@@ -710,65 +747,57 @@ namespace Lab_number_7_Model
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(618, 6);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(10, 13);
-            this.label7.TabIndex = 4;
-            this.label7.Text = ".";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.BackColor = System.Drawing.Color.Cornsilk;
-            this.groupBox3.Controls.Add(this.comboBox1);
-            this.groupBox3.Location = new System.Drawing.Point(617, 6);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(164, 59);
-            this.groupBox3.TabIndex = 5;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Отчет";
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.HeaderText = "№ терминала";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "Момент времени t";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.HeaderText = "S";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.HeaderText = "Q";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn11
-            // 
-            this.dataGridViewTextBoxColumn11.HeaderText = "R";
-            this.dataGridViewTextBoxColumn11.Name = "dataGridViewTextBoxColumn11";
-            this.dataGridViewTextBoxColumn11.ReadOnly = true;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Баланс";
-            this.Column6.Name = "Column6";
-            // 
             // Column7
             // 
             this.Column7.HeaderText = "Баланс";
             this.Column7.Name = "Column7";
+            // 
+            // restart_btn
+            // 
+            this.restart_btn.BackColor = System.Drawing.Color.LightGreen;
+            this.restart_btn.Image = ((System.Drawing.Image)(resources.GetObject("restart_btn.Image")));
+            this.restart_btn.Location = new System.Drawing.Point(432, 3);
+            this.restart_btn.Name = "restart_btn";
+            this.restart_btn.Size = new System.Drawing.Size(80, 65);
+            this.restart_btn.TabIndex = 20;
+            this.restart_btn.UseVisualStyleBackColor = false;
+            this.restart_btn.Click += new System.EventHandler(this.restart_btn_Click);
+            // 
+            // StructuralScheme
+            // 
+            this.StructuralScheme.BackColor = System.Drawing.Color.White;
+            this.StructuralScheme.Image = ((System.Drawing.Image)(resources.GetObject("StructuralScheme.Image")));
+            this.StructuralScheme.Location = new System.Drawing.Point(0, 0);
+            this.StructuralScheme.Name = "StructuralScheme";
+            this.StructuralScheme.Size = new System.Drawing.Size(895, 354);
+            this.StructuralScheme.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.StructuralScheme.TabIndex = 19;
+            this.StructuralScheme.TabStop = false;
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::Lab_number_7_Model.Properties.Resources.выход;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Enabled = false;
+            this.button2.Location = new System.Drawing.Point(706, 71);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 69);
+            this.button2.TabIndex = 7;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Visible = false;
+            // 
+            // ReturnPageTerminals
+            // 
+            this.ReturnPageTerminals.BackgroundImage = global::Lab_number_7_Model.Properties.Resources.restr_3_;
+            this.ReturnPageTerminals.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ReturnPageTerminals.Enabled = false;
+            this.ReturnPageTerminals.Location = new System.Drawing.Point(617, 71);
+            this.ReturnPageTerminals.Name = "ReturnPageTerminals";
+            this.ReturnPageTerminals.Size = new System.Drawing.Size(75, 69);
+            this.ReturnPageTerminals.TabIndex = 6;
+            this.ReturnPageTerminals.UseVisualStyleBackColor = true;
+            this.ReturnPageTerminals.Visible = false;
+            this.ReturnPageTerminals.Click += new System.EventHandler(this.ReturnPageTerminals_Click);
             // 
             // Form1
             // 
@@ -776,7 +805,7 @@ namespace Lab_number_7_Model
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1049, 570);
+            this.ClientSize = new System.Drawing.Size(1049, 608);
             this.Controls.Add(this.tabControl1);
             this.IsMdiContainer = true;
             this.Name = "Form1";
@@ -791,7 +820,6 @@ namespace Lab_number_7_Model
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.StructuralScheme)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -811,9 +839,10 @@ namespace Lab_number_7_Model
             this.panel2.PerformLayout();
             this.tabPage5.ResumeLayout(false);
             this.tabPage5.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
-            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.StructuralScheme)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -886,6 +915,8 @@ namespace Lab_number_7_Model
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
+        private System.Windows.Forms.Button ReturnPageTerminals;
+        private System.Windows.Forms.Button button2;
     }
 }
 

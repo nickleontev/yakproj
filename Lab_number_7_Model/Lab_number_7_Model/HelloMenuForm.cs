@@ -39,10 +39,15 @@ namespace Lab_number_7_Model
         {
             try
             {
-                richTextBox1.LoadFile(@"C:\Users\sv\Desktop\yakproj-master\yakproj-master\Lab_number_7_Model\Lab_number_7_Model\HelloMenuFormButton2.rtf"/*, RichTextBoxStreamType.PlainText*/);
+                richTextBox1.LoadFile(@"D:\Course work\Lab_number_7_Model\Lab_number_7_Model\Document\HelloMenuFormButton2.rtf"/*, RichTextBoxStreamType.PlainText*/);
+
                 button2.Visible = false;
                 button5.Visible = true;
-        }
+                
+                button6.Visible = false;
+                button4.Visible = true;
+
+            }
             catch(System.IO.FileNotFoundException)
             {
                 richTextBox1.Text = "Неправильно указан путь к файлу(Исправить в коде, пока только так)";
@@ -71,9 +76,15 @@ namespace Lab_number_7_Model
         {
             try
             {
-                richTextBox1.LoadFile(@"C:\Users\sv\Desktop\yakproj-master\yakproj-master\Lab_number_7_Model\Lab_number_7_Model\HelloMenuFormButtonСхемыИАлгоритм.rtf"/*, RichTextBoxStreamType.PlainText*/);
+                richTextBox1.LoadFile(@"D:\Course work\Lab_number_7_Model\Lab_number_7_Model\Document\HelloMenuFormButtonСхемыИАлгоритм.rtf"/*, RichTextBoxStreamType.PlainText*/);
+
                 button4.Visible = false;
                 button6.Visible = true;
+
+                button5.Visible = false;
+                button2.Visible = true;
+
+
             }
             catch (System.IO.FileNotFoundException)
             {

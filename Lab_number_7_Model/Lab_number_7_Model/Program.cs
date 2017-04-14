@@ -23,9 +23,8 @@ namespace Lab_number_7_Model
             Application.SetCompatibleTextRenderingDefault(false);
 
 
-
             //Picture first = new Picture();
-            //DateTime end = DateTime.Now + TimeSpan.FromSeconds(1.4);
+            //DateTime end = DateTime.Now + TimeSpan.FromSeconds(2);
             //first.Show();
 
             //while (end > DateTime.Now)
@@ -37,8 +36,11 @@ namespace Lab_number_7_Model
 
 
 
-            //Application.Run(new Form1());
-           Application.Run(new HelloMenuForm());
+            Application.Run(new TESTGraphic());
+
+
+            //Application.Run(new HelloMenuForm());
+
            // Application.Run(new ProcessForm());
         }
     }

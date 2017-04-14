@@ -12,17 +12,17 @@ namespace Lab_number_7_Model
 {
     public partial class Form3 : Form
     {
-        Form2 f2;
+        //Form2 f2;
         public Form3()
         {
             InitializeComponent();
         }
 
-        public Form3(Form2  f2)
-        {
-            this.f2 = f2;
-            InitializeComponent();
-        }
+        //public Form3(Form2  f2)
+        //{
+        //    this.f2 = f2;
+        //    InitializeComponent();
+        //}
 
         private bool IsFull()
         {
@@ -48,7 +48,7 @@ namespace Lab_number_7_Model
 
         private void late_btn_Click(object sender, EventArgs e)
         {
-            this.f2.Visible = true;
+            //this.f2.Visible = true;
             this.Close();
         }
 

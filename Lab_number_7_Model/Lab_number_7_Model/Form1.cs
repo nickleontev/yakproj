@@ -545,7 +545,6 @@ RANDINT - Целое случайное число
         }
 
 
-       
 
         private void input_dT_rb_CheckedChanged(object sender, EventArgs e)
         {
@@ -633,6 +632,11 @@ RANDINT - Целое случайное число
                 dataGridView4.Visible = false;
             }
 
+        }
+
+        private void ReturnPageTerminals_Click(object sender, EventArgs e)
+        {
+            tabControl1.SelectTab(0);
         }
     }
 }

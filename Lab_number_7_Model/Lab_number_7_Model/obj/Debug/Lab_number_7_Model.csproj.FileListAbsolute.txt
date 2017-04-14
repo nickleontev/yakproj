@@ -58,3 +58,23 @@ C:\Users\mvideo\Desktop\Якимов-прожект\Lab_number_7_Model\Lab_numbe
 C:\Users\mvideo\Desktop\Якимов-прожект\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.csproj.GenerateResource.Cache
 C:\Users\mvideo\Desktop\Якимов-прожект\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.exe
 C:\Users\mvideo\Desktop\Якимов-прожект\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.pdb
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\bin\Debug\Lab_number_7_Model.exe.config
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\bin\Debug\Lab_number_7_Model.exe
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\bin\Debug\Lab_number_7_Model.pdb
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\bin\Debug\ru\Microsoft.VisualStudio.DebuggerVisualizers.resources.dll
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.csprojResolveAssemblyReference.cache
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.AboutBox1.resources
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.HelloMenuForm.resources
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.Form1.resources
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.Form3.resources
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.Form4.resources
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.Form5.resources
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.TESTMDIParent1.resources
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.Picture.resources
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.ProcessForm.resources
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.Properties.Resources.resources
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.csproj.GenerateResource.Cache
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.exe
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.pdb
+D:\Course work\Lab_number_7_Model\Lab_number_7_Model\obj\Debug\Lab_number_7_Model.TESTGraphic.resources

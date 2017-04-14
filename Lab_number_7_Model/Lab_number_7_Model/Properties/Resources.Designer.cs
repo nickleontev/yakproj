@@ -103,6 +103,26 @@ namespace Lab_number_7_Model.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap restr_3_ {
+            get {
+                object obj = ResourceManager.GetObject("restr(3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap выход {
+            get {
+                object obj = ResourceManager.GetObject("выход", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Для_логотипа_1_0 {
             get {
                 object obj = ResourceManager.GetObject("Для логотипа 1.0", resourceCulture);
@@ -166,6 +186,36 @@ namespace Lab_number_7_Model.Properties {
         internal static System.Drawing.Bitmap Заголовок3 {
             get {
                 object obj = ResourceManager.GetObject("Заголовок3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Заголовок4 {
+            get {
+                object obj = ResourceManager.GetObject("Заголовок4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Заголовок5 {
+            get {
+                object obj = ResourceManager.GetObject("Заголовок5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Заголовок6 {
+            get {
+                object obj = ResourceManager.GetObject("Заголовок6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
